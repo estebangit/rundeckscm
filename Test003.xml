@@ -1,6 +1,6 @@
 <joblist>
   <job>
-    <description>Test 001</description>
+    <description>Test 003</description>
     <dispatch>
       <excludePrecedence>true</excludePrecedence>
       <keepgoing>false</keepgoing>
@@ -8,9 +8,9 @@
       <threadcount>1</threadcount>
     </dispatch>
     <executionEnabled>true</executionEnabled>
-    <id>8acdd199-0998-4051-af6c-58e379f6ae3b</id>
+    <id>ffe6e6c9-3298-4b10-91a1-ef0f497f3f0d</id>
     <loglevel>INFO</loglevel>
-    <name>Test001</name>
+    <name>Test003</name>
     <nodeFilterEditable>false</nodeFilterEditable>
     <nodefilters>
       <filter>linux02</filter>
@@ -28,6 +28,6 @@
       </pluginConfig>
     </sequence>
     <timeout>10</timeout>
-    <uuid>8acdd199-0998-4051-af6c-58e379f6ae3b</uuid>
+    <uuid>ffe6e6c9-3298-4b10-91a1-ef0f497f3f0d</uuid>
   </job>
 </joblist>
