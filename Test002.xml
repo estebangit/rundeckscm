@@ -19,7 +19,7 @@
     <scheduleEnabled>true</scheduleEnabled>
     <sequence keepgoing='false' strategy='node-first'>
       <command>
-        <exec>ls</exec>
+        <exec>ls -l</exec>
       </command>
       <pluginConfig>
         <WorkflowStrategy>
