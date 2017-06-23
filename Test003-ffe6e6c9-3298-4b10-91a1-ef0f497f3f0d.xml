@@ -1,0 +1,33 @@
+<joblist>
+  <job>
+    <description>Test 003</description>
+    <dispatch>
+      <excludePrecedence>true</excludePrecedence>
+      <keepgoing>false</keepgoing>
+      <rankOrder>ascending</rankOrder>
+      <threadcount>1</threadcount>
+    </dispatch>
+    <executionEnabled>true</executionEnabled>
+    <id>ffe6e6c9-3298-4b10-91a1-ef0f497f3f0d</id>
+    <loglevel>INFO</loglevel>
+    <name>Test003</name>
+    <nodeFilterEditable>false</nodeFilterEditable>
+    <nodefilters>
+      <filter>linux02</filter>
+    </nodefilters>
+    <nodesSelectedByDefault>true</nodesSelectedByDefault>
+    <scheduleEnabled>true</scheduleEnabled>
+    <sequence keepgoing='false' strategy='node-first'>
+      <command>
+        <exec>ls</exec>
+      </command>
+      <pluginConfig>
+        <WorkflowStrategy>
+          <node-first></node-first>
+        </WorkflowStrategy>
+      </pluginConfig>
+    </sequence>
+    <timeout>10</timeout>
+    <uuid>ffe6e6c9-3298-4b10-91a1-ef0f497f3f0d</uuid>
+  </job>
+</joblist>
